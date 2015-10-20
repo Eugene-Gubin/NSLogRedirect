@@ -10,4 +10,11 @@
 
 @interface NSLogRedirect : NSObject
 
++ (void) enableRedirectToFile;
++ (BOOL) isRedirectEnabled;
++ (NSString *) currentLog;
++ (void) throwError;
++ (FILE*) reopenFile:(FILE*)file toPath:(NSString*)path withAttributes:(NSString*)attributes;
++ (FILE*) stdErr;
+
 @end

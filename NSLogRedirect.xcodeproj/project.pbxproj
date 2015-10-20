@@ -12,7 +12,6 @@
 		843DB142192DEA5D0083EC79 /* NSLogRedirect.m in Sources */ = {isa = PBXBuildFile; fileRef = 843DB141192DEA5D0083EC79 /* NSLogRedirect.m */; };
 		843DB149192DEA5D0083EC79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843DB148192DEA5D0083EC79 /* XCTest.framework */; };
 		843DB14A192DEA5D0083EC79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843DB13A192DEA5D0083EC79 /* Foundation.framework */; };
-		843DB14C192DEA5D0083EC79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843DB14B192DEA5D0083EC79 /* UIKit.framework */; };
 		843DB14F192DEA5D0083EC79 /* libNSLogRedirect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 843DB137192DEA5D0083EC79 /* libNSLogRedirect.a */; };
 		843DB155192DEA5D0083EC79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 843DB153192DEA5D0083EC79 /* InfoPlist.strings */; };
 		843DB157192DEA5D0083EC79 /* NSLogRedirectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843DB156192DEA5D0083EC79 /* NSLogRedirectTests.m */; };
@@ -49,7 +48,6 @@
 		843DB141192DEA5D0083EC79 /* NSLogRedirect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLogRedirect.m; sourceTree = "<group>"; };
 		843DB147192DEA5D0083EC79 /* NSLogRedirectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSLogRedirectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843DB148192DEA5D0083EC79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		843DB14B192DEA5D0083EC79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		843DB152192DEA5D0083EC79 /* NSLogRedirectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSLogRedirectTests-Info.plist"; sourceTree = "<group>"; };
 		843DB154192DEA5D0083EC79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		843DB156192DEA5D0083EC79 /* NSLogRedirectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLogRedirectTests.m; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 			files = (
 				843DB149192DEA5D0083EC79 /* XCTest.framework in Frameworks */,
 				843DB14F192DEA5D0083EC79 /* libNSLogRedirect.a in Frameworks */,
-				843DB14C192DEA5D0083EC79 /* UIKit.framework in Frameworks */,
 				843DB14A192DEA5D0083EC79 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,7 +99,6 @@
 			children = (
 				843DB13A192DEA5D0083EC79 /* Foundation.framework */,
 				843DB148192DEA5D0083EC79 /* XCTest.framework */,
-				843DB14B192DEA5D0083EC79 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -289,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -320,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -405,6 +401,7 @@
 				843DB15C192DEA5D0083EC79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843DB15D192DEA5D0083EC79 /* Build configuration list for PBXNativeTarget "NSLogRedirectTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +410,7 @@
 				843DB15F192DEA5D0083EC79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
